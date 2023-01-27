@@ -225,9 +225,6 @@ padding: 50px 35px;
 .txt-area1 .list-services ul li p{
     color: #000000c2;
 }
-.section-two .img1{
-    padding-top: 240px;
-}
 /*----section two close----*/
 /*----section three open----*/
 .section-three{
@@ -337,7 +334,7 @@ padding: 50px 35px;
     border: 1px solid #fff;
     padding: 30px 20px;
     border-radius: 38px;
-    margin: 0px 167px;
+    /* margin: 0px 167px; */
 }
 .buisness h2{
     font-size: 45px;
