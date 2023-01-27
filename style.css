@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #8421d1;
+}
+.header ul li a{
+    color: #ffff;
+    font-weight: 400;
+}
+/* .header-section{
+    padding-top: 40px;
+} */
+.header-img img{
+    width: 145px;
+    height: 44px;
+}
+.navbar form button{
+color: #491c6b;
+background: #70e2d9;
+border: 2px solid #70e2d9;
+padding: 14px 15px;
+font-weight: 500;
+font-size: 15px;
+border-radius: 15px;
+margin-left: 35px;
+}
+.txt-section {
+    padding: 50px 0px;
+}
+
+.txt-section h1{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 50px;
+}
+.txt-section p{
+    color: #dabcf1;
+    line-height: 1.6em;
+}
+.txt-section form button{
+    color: #491c6b;
+background: #70e2d9;
+border: 2px solid #70e2d9;
+padding: 14px 35px;
+font-weight: 500;
+font-size: 15px;
+border-radius: 15px;
+}
+.social-icons a i{
+    color: #ffff;
+    padding: 22px 10px;
+}
+
+
+/*----section one open----*/
+.section-one{
+    padding: 77px 0px;
+}
+.section-one .headings .p{
+    text-align: center;
+    color: #8421d1;
+    font-family: nunito sans,Sans-serif;
+    font-weight: 500;
+    letter-spacing: 2.1px;
+}
+.section-one .headings h2{
+    font-size: 40px;
+    line-height: 1.3;
+    font-family: lato;
+    font-weight: 900;
+    color: #040222;
+    font-style: normal;
+
+}
+.section-one .headings p{
+    color: #999;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article{
+    margin: 0;
+    max-width: 88%;
+    height:auto;
+    padding: 26px 27px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #606060;
+    border-radius: 30px 30px 30px 30px;
+}
+.article img{
+    width: 260px;
+    height: 188px;
+}
+.article p{
+    color: #dabcf1;
+}
+.article a{
+    text-decoration: none;
+    color: #8421d1;
+    font-weight: 500;
+}
+.article a i{
+    font-size: 9px;
+    padding-left: 6px;
+}
+
+
+.banks-list{
+    transition: all .3s ease-out;
+    opacity: .3;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 50px;
+}
+.banks-list .banks-img{
+padding: 50px 35px;
+}
+.banks-list .banks-img ::after{
+    color: #8421d1;
+}
+/*----section one close----*/
+/*----section two open----*/
+
+
+
+.txt-area{
+    padding: 130px 0 130px 100px;
+}
+
+
+.txt-area .p{
+    text-align: left;
+    color: #8421d1;
+    font-family: nunito sans,Sans-serif;
+    font-weight: 500;
+    letter-spacing: 2.1px;
+}
+.txt-area h2{
+    font-size: 40px;
+    line-height: 1.3;
+    font-family: lato;
+    font-weight: 900;
+    color: #040222;
+    font-style: normal;
+}
+.txt-area p{
+    font-family: nunito sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #999;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.txt-area a{
+    font-size: 16px;
+    line-height: 1.15;
+    letter-spacing: 0;
+    font-family: nunito sans;
+    font-weight: 700;
+    padding: 18px 35px;
+    border: 2px solid #491c6b;
+    background: #491c6b;
+    color: #fff;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.txt-area a:hover{
+    background: black;
+    color: #ffff;
+    border: 1px solid black;
+}
+.txt-area a i{
+    font-size: 9px;
+    padding-left: 6px;
+}
+.txt-area1{
+    padding: 80px 100px 130px 0
+}
+.txt-area1 .p{
+    text-align: left;
+    color: #8421d1;
+    font-family: nunito sans,Sans-serif;
+    font-weight: 500;
+    letter-spacing: 2.1px;
+}
+.txt-area1 h2{
+    font-size: 40px;
+    line-height: 1.3;
+    font-family: lato;
+    font-weight: 900;
+    color: #040222;
+    font-style: normal;
+}
+.txt-area1 p{
+    font-family: nunito sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #999;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.txt-area1 .list-services ul li b{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    background: var(--c-dark);
+    color: #fff;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    font-style: inherit;
+    float: left;
+    background: black;
+}
+.txt-area1 .list-services ul li p{
+    color: #000000c2;
+}
+.section-two .img1{
+    padding-top: 240px;
+}
+/*----section two close----*/
+/*----section three open----*/
+.section-three{
+    background-color: #8421d1;
+    background-image: url(./imgs/frame2.png);
+    padding: 100px 0px;
+    background-position: top center;
+    background-size: cover;
+}
+.txt-area2{
+    padding: 44px 0px 0px 34px;
+}
+.txt-area2 .p{
+    text-align: left;
+    color: #70e2d9;
+    font-family: nunito sans,Sans-serif;
+    font-weight: 600;
+    letter-spacing: 2.1px;
+}
+.txt-area2 h2{
+    text-align: left;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.3;
+    font-family: lato;
+    font-weight: 900;
+    font-style: normal;
+}
+.txt-area2 p{
+    font-family: nunito sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffff;
+    font-style: normal;
+}
+.files i{
+    color: #70E2D9;
+    font-size: 34px;
+    position: relative;
+    margin-right: 25px;
+    margin-left: 2px;
+}
+/*----section three close----*/
+/*----section four open----*/
+
+
+.services{
+    padding: 110px 0px 110px;
+    background-color: #F0EEE8;
+    border-radius: 43px;
+}
+.section-four .title h2{
+    color: #8421d1;
+    line-height: 1.3;
+    font-family: lato;
+    font-weight: 900;
+    font-size: 65px;
+}
+.section-four .title h6{
+    font-weight: 800;
+}
+
+/*----section four close----*/
+/*----section five open----*/
+.section-five .title{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #606060;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 30px 30px 15px;
+    border-radius: 40px;
+    margin: 15px 0px 15px 28px;
+}
+.section-five .title p{
+    font-family: nunito sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #999;
+    font-style: normal;
+}
+.section-five .title h6{
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: lato;
+    font-weight: 900;
+    color: #040222;
+    font-style: normal;
+}
+/*----section five close----*/
+/*----section six open----*/
+.section-six{
+    background-color: #f7f4fd;
+    background-image: url(./imgs/couple.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px;
+}
+
+
+.buisness{
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 30px 20px;
+    border-radius: 38px;
+    margin: 0px 167px;
+}
+.buisness h2{
+    font-size: 45px;
+    line-height: 1.3;
+    font-family: lato;
+    font-weight: 900;
+    color: #040222;
+    font-style: normal;
+}
+.buisness a{
+    font-size: 18px;
+    line-height: 4.15;
+    letter-spacing: 0;
+    font-family: nunito sans;
+    font-weight: 700;
+    padding: 18px 28px;
+    border: 2px solid #491c6b;
+    background: #491c6b;
+    color: #fff;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+.buisness a i{
+    font-size: 14px;
+    padding: 0px 10px;
+}
+/*----section six close----*/
+/*----section seven open----*/
+.section-seven{
+    background-color:  #671aa3;
+}
+
+.footer h5{
+    margin: 0 0 25px;
+    text-align: left;
+    color: #fff;
+    font-family: lato,Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0;
+}
+.footer ul li{
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 19px;
+    font-style: normal;
+    list-style-type: none;
+    line-height: 2;
+}
+.footer a{
+    list-style-type: none;
+    margin: 10px 0px;
+}
+.footer input{
+    padding: 15px 10px;
+}
+.footer span input{
+    font-size: 16px;
+    line-height: 1.15;
+    letter-spacing: 0;
+    font-family: nunito sans;
+    font-weight: 700;
+    padding: 18px 56px;
+    border: 2px solid #70e2d9;
+    background: #70e2d9;
+    color: #491c6b;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+/*----section seven close----*/
+
+@media screen and (max-width: 768px){
+.banks-list{
+    width: 100%;
+}
+}
+ 
+@media screen and (min-width: 400px) and (max-width: 768px){
+    
+}
+
+
